@@ -94,16 +94,16 @@ ages = {
 #         asd[i] = 1
 # print(asd)
 
-nums = [5,5,2,2,2,3,3,3,5,1,1,1,4,4,4,4,4,4]
-asd = {}
-for i in nums:
-    asd[i] = asd.get(i,0) + 1
-best_num = None
-best_count = -1
+# nums = [5,5,2,2,2,3,3,3,5,1,1,1,4,4,4,4,4,4]
+# asd = {}
+# for i in nums:
+#     asd[i] = asd.get(i,0) + 1
+# best_num = None
+# best_count = -1
 
-for num, count in asd.items():
-    if count > best_count or (count == best_count and (best_num is None or num < best_num)):
-        best_num = num
-        best_count = count
-print("asd", asd)
-print("most asd =",best_num, "count =",best_count)
+# for num, count in asd.items():
+#     if count > best_count or (count == best_count and (best_num is None or num < best_num)):
+#         best_num = num
+#         best_count = count
+# print("asd", asd)
+# print("most asd =",best_num, "count =",best_count)
